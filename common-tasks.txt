@@ -1,0 +1,16 @@
+1. Graphql?
+2. HTTP1, HTTP2, HTTPS
+3. webRtc
+4. long poling, poling
+5. авторизация, аутентификация (jwt, oauth)
+6. Паттерны, что применял?
+7. Какими способами можем отправить запрос на сервер из браузера? (fetch, прямо из формы, xmlhttprequest, websocket, link, script, iframe)
+8. Уезвимости браузера (xss, cors, csrf)
+9. Флаги у куков (secure, httponly)
+10. Performance внутри брузера
+11. Порядок загрузки и рендеринга в браузере
+12. что происходит когда вводим адрес, стадии запроса
+13. Из чего состоит запрос
+14. Сжатие в браузере
+15. CDN
+16. localstorage и sessionstorage
