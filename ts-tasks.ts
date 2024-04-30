@@ -7,15 +7,16 @@
 //3. Написать some для массивов и типизировать его
 
 //4. Определить тип, в котором будут ключи объекта const X = {a: 1, b: 2, c: 3}
+
 //5. Или
-// const X = {a: 1, b: 2, c: 3}
+const X = { a: 1, b: 2, c: 3 }
 
-// function getProperty(obj, key) {
-//   return obj[key]
-// }
+function getProperty(obj, key) {
+  return obj[key]
+}
 
-// getProperty(X, 'a')
-// getProperty(X, 'm')
+getProperty(X, 'a')
+getProperty(X, 'm')
 
 //6. Типизировать
 //Гражданин (isForeigner всегда false)
