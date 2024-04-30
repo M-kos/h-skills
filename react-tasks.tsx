@@ -28,3 +28,4 @@ export default App
 //3. useEffect, useLayoutEffect
 //4. prop key
 //5. ssr
+//6. Что можно реализовать только на классовом компоненте

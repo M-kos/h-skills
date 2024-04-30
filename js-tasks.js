@@ -53,3 +53,31 @@ setTimeout(() => {
 //7. воркеры
 //8. map и set
 //9. target, currentTarget
+//10. Promise, что это? Зачем? Какие состояния?
+//11*. Алгоритмическая, собрать все value в массив
+const tree = {
+  value: 1,
+  children: [
+    {
+      value: 2,
+      children: [
+        {
+          value: 3,
+        }
+      ]
+    },
+    {
+      value: 4,
+      children: [
+        {
+          value: 5,
+        },
+        {
+          value: 6,
+        }
+      ]
+    }
+  ]
+}
+
+//12. boxing, unboxing

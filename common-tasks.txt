@@ -14,3 +14,5 @@
 14. Сжатие в браузере
 15. CDN
 16. localstorage и sessionstorage
+17. Коды ответа
+18. cqrs
