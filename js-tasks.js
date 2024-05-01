@@ -24,6 +24,9 @@ let arr = [
 
 //3. Что такое чистая функция
 //4. Eventloop
+//Макротаски - события
+//Микротаски - промисы, mutationObserver, queueMicrotask
+// Callstack -> Microtasks -> Macrotask
 //5. Задача на консоль логи и рекурсию промисов
 setTimeout(() => {
   console.log('1')
