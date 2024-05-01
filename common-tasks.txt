@@ -1,18 +1,28 @@
-1. Graphql?
-2. HTTP1, HTTP2, HTTPS
-3. webRtc
-4. long poling, poling
-5. авторизация, аутентификация (jwt, oauth)
-6. Паттерны, что применял?
-7. Какими способами можем отправить запрос на сервер из браузера? (fetch, прямо из формы, xmlhttprequest, websocket, link, script, iframe)
-8. Уезвимости браузера (xss, cors, csrf)
-9. Флаги у куков (secure, httponly)
-10. Performance внутри брузера
-11. Порядок загрузки и рендеринга в браузере
-12. что происходит когда вводим адрес, стадии запроса
-13. Из чего состоит запрос
-14. Сжатие в браузере
+1. что происходит когда вводим адрес, стадии запроса
+
+Junior
+2. Порядок загрузки и рендеринга в браузере
+3. Из чего состоит запрос
+4. HTTP1, HTTP2, HTTPS
+5. Коды ответа
+6. localstorage и sessionstorage
+7. Флаги у куков (secure, httponly)
+
+Middle
+8. Какими способами можем отправить запрос на сервер из браузера? (fetch, прямо из формы, xmlhttprequest, websocket, link, script, iframe)
+9. long poling, poling
+10. авторизация, аутентификация (jwt, oauth)
+11. Уезвимости браузера (xss, cors, csrf)
+12. cqrs
+13. Performance внутри брузера
+14. webRtc
+
+Senior
 15. CDN
-16. localstorage и sessionstorage
-17. Коды ответа
-18. cqrs
+16. Сжатие в браузере
+17. Паттерны, что применял?
+18. Graphql?
+
+
+
+
