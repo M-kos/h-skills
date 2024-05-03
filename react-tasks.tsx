@@ -23,8 +23,23 @@ function App() {
 export default App
 
 //1. Жизненный цикл компонента
+// https://hsto.org/webt/6t/7s/ls/6t7slszbqm-tvq5f8twwanrmdgw.jpeg
+
 //2. virtual dom
+// Reconciliation. Current tree, Work in Progress tree -> Render Enviroment (приоретизация)
+// Эврестический алгоритм O(n) для сравнения деревьев
+
 //3. useEffect, useLayoutEffect
+
 //4. prop key
+// https://codesandbox.io/s/dazzling-roentgen-ivbztg?file=/src/App.tsx
+
 //5. ssr (проблема не в загрузке js, а в том как понять в каком состоянии страница должна индексироваться)
+
 //6. Что можно реализовать только на классовом компоненте
+
+//7. Какие способы оптимизации
+// Задача на оптимизацию
+// https://codesandbox.io/s/dank-resonance-5j3e9o?file=/src/App.js
+// Задача на рефакторинг
+// https://codesandbox.io/s/dry-glade-qhv8m2
