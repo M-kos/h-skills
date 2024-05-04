@@ -4,6 +4,7 @@ https://habr.com/ru/articles/726292/
 
 Junior
 2. Порядок загрузки и рендеринга в браузере
+DOM,CSSOM -> Render Tree -> Layout -> Paint -> Compositing
 https://habr.com/ru/companies/skillfactory/articles/678400/
 https://habr.com/ru/articles/726292/
 Стили могут блокировать парсинг, если они не загружены и есть блокирующий скрипт, скрипт будет ждать когда загрузятся стили. Стили блокируют рендеринг
@@ -61,6 +62,6 @@ Senior
 17. Паттерны, что применял?
 18. Graphql?
 
-
-
-
+Не успели
+webpack, настройка
+ssr
