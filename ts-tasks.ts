@@ -52,3 +52,65 @@ function createPerson(person) {
 
 //7. Awaited
 //8. any, unknown
+
+// 9. Как сделать так, чтобы тип результата выполнения функции соответствовал реализации:
+function foo(args: any) {
+    return args;
+}
+
+const a1 = foo(''); // any
+const a2 = foo(1); // any
+const a3 = foo(null); // any
+
+// Должно быть
+const a1 = foo(''); // string
+const a2 = foo(1); // number
+const a3 = foo(null); // null
+
+// Ответ
+function foo<T>(args: T): T {
+    return args;
+}
+
+
+// (Использовать ответ первого вопроса). Как сделать так, чтобы при передаче значения отличного от строки и числа была бы ошибка:
+const a1 = foo(''); // string
+const a2 = foo(1); // number
+const a3 = foo(null); // error
+
+// Ответ
+function foo<T extends string | number>(args: T): T {
+    return args;
+}
+
+// 10 Как реализовать функцию isFoo, чтобы внутри условия не было ошибок?
+type Foo = { a: string; }
+type Bar = { b: number; }
+
+function isFoo(p: Foo | Bar) {
+
+}
+
+function example(p: Foo | Bar) {
+    if (isFoo(p)) {
+        return p.a; // error
+    } else {
+        return p.b; // error
+    }
+}
+
+const e1 = example({ a: '' });
+const e2 = example({ b: 1 });
+
+// Ответ
+function isFoo(p: Foo | Bar): p is Foo {
+    return 'a' in p;
+}
+
+// или
+
+function isFoo(p: Foo | Bar): p is Foo {
+    return p.hasOwnProperty('a');
+}
+
+
