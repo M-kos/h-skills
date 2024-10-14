@@ -43,3 +43,5 @@ export default App
 // https://codesandbox.io/s/dank-resonance-5j3e9o?file=/src/App.js
 // Задача на рефакторинг
 // https://codesandbox.io/s/dry-glade-qhv8m2
+
+//8. Есть useEffect в deps какой-то обЪект (сравнение происходит по ссылке). Этот объект могут мутировать внутри (т.е. ссылка останется та же). Как сделать так, чтоб useEffect срабатывал при каждой мутации? Ответ: Json.Stringify
