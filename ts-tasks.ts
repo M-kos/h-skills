@@ -58,14 +58,15 @@ function foo(args: any) {
     return args;
 }
 
-const a1 = foo(''); // any
-const a2 = foo(1); // any
-const a3 = foo(null); // any
+// Сейчас
+const a1 = foo(''); // => any
+const a2 = foo(1); // => any
+const a3 = foo(null); // => any
 
 // Должно быть
-const a1 = foo(''); // string
-const a2 = foo(1); // number
-const a3 = foo(null); // null
+const a1 = foo(''); // => string
+const a2 = foo(1); // => number
+const a3 = foo(null); // => null
 
 // Ответ
 function foo<T>(args: T): T {
